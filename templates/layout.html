@@ -11,6 +11,19 @@
     <title>enforce-covering by casual-healthcare</title>
   </head>
   <body>
-    {% block main %}{% endblock %}
+    {% block main %}
+    
+    <form action="/" method="post">
+      <h1>&nbsp</h1>
+      <h1>&nbsp</h1>
+      <h2 class="text-center">Hey! Welcome! This building is protected by enforce-covering, to ensure the safety of everyone.<h2>
+      <h4 class="text-center">If you haven't already, please wear a face mask.</h4>
+      <h4 class="text-center">Check in to take a picture and come inside.<h4>
+      <div class="col text-center">
+          <button type="submit" class="btn btn-primary">Check-In</button>
+      </div>
+    </form>
+    
+    {% endblock %}
   </body>
 </html>
